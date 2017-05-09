@@ -10,16 +10,20 @@ h1 {
  text-align: center;
  }
 
-table {
-border-collapse:collapse;
-width:100%;
-max-width:700px;
-min-width:400px;
-text-align:center;
+
+
+th{
+	font-size: 14px;
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
 }
 
-table,th, td {
-border: 1px solid gray;
+table{font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
 }
-
-
