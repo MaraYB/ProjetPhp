@@ -1,9 +1,14 @@
 <html>
     <head>
         <title>page d'acceuil</title>
+		<link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+		<h1>
+			Trouvons un Bar !! 
+		</h1>
+		<div name ="deb">
         <form action="listedesbars.php" method="POST">
 			<select name="villes">
 				<?php
@@ -18,5 +23,6 @@
 			</select>
 			<input type="submit", name="GO" value="Cherche moi un bar" />
         </form>
+		</div>
     </body>
 </html>
