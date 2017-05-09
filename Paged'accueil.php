@@ -6,9 +6,9 @@
 
     <body>
 		<h1>
-			Trouvons un Bar !! 
+			Trouvons un Bar !!
 		</h1>
-		<div name ="deb">
+		<div name ="debut">
         <form action="listedesbars.php" method="POST">
 			<select name="villes">
 				<?php
