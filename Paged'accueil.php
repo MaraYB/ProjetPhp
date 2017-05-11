@@ -21,7 +21,7 @@
 					}
 				?>
 			</select>
-			<input type="submit", name="GO" value="Cherche moi un bar" />
+			<input type="submit", class="bouton" value="Cherche moi un bar" />
         </form>
 		</div>
     </body>

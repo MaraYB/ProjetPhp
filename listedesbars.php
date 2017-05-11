@@ -45,11 +45,11 @@
 				</tbody>
 			</table>
 			<p> Ajoutez votre bar préféré ? </p>
-			<input type="submit" name="ajouter" value ="Ajoute ton Bar">
+			<input type="submit" class="bouton" value ="Ajoute ton Bar">
 		</form>
 		<form action ="supprimerbar.php" method="POST">
 			<p> Vous avez vu un bar qui a fermé récemment ? </p>
-			<input type="submit" name="supprimer" value ="Supprime un Bar">
+			<input type="submit" class="bouton" value ="Supprime un Bar">
 		</form>
 	</body>
 </html>
