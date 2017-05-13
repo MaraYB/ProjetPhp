@@ -8,10 +8,17 @@
 									?> 
 		</h1>
 	
+
 		<form action="entreebar.php" method="POST">
 			<table>
 				<thead>
 					<tr><th>Ville</th><th>Bar</th><th>Adresse</th><th>Sp&#233cialit&#233 du Bar</th>
+
+		<form action="avis.php" method="POST">
+			<table>
+				<thead>
+					<tr><th>Ville</th><th>Bar</th><th>Adresse</th><th>Sp&#233cialit&#233 du Bar</th><th><input type="submit" value="Voir les avis"/></th>
+
 					</tr>
 				</thead>
 				<tbody>
@@ -39,17 +46,29 @@
 					echo "<td>",$row[1],"</td>";
 					echo "<td>",$row[2],"</td>";
 					echo "<td>",$row[3],"</td>";
+					echo "<td>","<input type='radio' value='",$row[1],"' name='bar' id='bar'>","</td>"; #bouton à tester pour aller vers la page avis				
 					echo "</tr>\n";
 				}
 						?>
 				</tbody>
 			</table>
+
 			<p> Ajoutez votre bar pr&#233f&#233r&#233 ? </p>
 			<input type="submit" name="ajout" value ="Ajouter un Bar">
 		</form>
 		<form action ="sortiebar.php" method="POST">
 			<p> Vous avez vu un bar qui a ferm&#233 r&#233cemment ? </p>
 			<input type="submit" name="supprimer" value ="Supprime un Bar">
+
+		</form>
+		<form action="entreebar.php" method="POST">
+			<p> Ajoutez votre bar pr&#233f&#233r&#233 ? </p>
+			<input type="submit" name="ajout" value ="Ajouter un Bar">
+		</form>
+		<form action ="supprimerbar.php" method="POST">
+			<p> Vous avez vu un bar qui a ferm&#233 r&#233cemment ? </p>
+			<input type="submit" name="supprimer" value ="Supprimer un Bar">
+
 		</form>
 	</body>
 </html>
