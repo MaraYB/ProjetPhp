@@ -10,7 +10,6 @@ h1 {
  }
 
 table{
-		border-collapse:collapse;
 		width:100%;
 		max-width:700px;
 		min-width:400px;
@@ -37,17 +36,4 @@ th{
     padding: 10px 8px;
 }
 
-.bouton{
-		display:block;
-		width:150px;
-		line-height:50px;
-		text-align:center;
-		vertical-align:middle;
-		background:url(images/bouton-noir.png) no-repeat;
-		color:white;
-		text-decoration:none;
-}
-
-.bouton :hover {
-background:url(images/bouton-noir-2.png) no-repeat;
-}
+#debut{text-align: center;}

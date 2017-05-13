@@ -8,10 +8,10 @@
 									?> 
 		</h1>
 	
-		<form action="ajouterbar.php" method="POST">
+		<form action="entreebar.php" method="POST">
 			<table>
 				<thead>
-					<tr><th>Ville</th><th>Bar</th><th>Adresse</th><th>Spécialité du Bar</th>
+					<tr><th>Ville</th><th>Bar</th><th>Adresse</th><th>Sp&#233cialit&#233 du Bar</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -44,12 +44,12 @@
 						?>
 				</tbody>
 			</table>
-			<p> Ajoutez votre bar préféré ? </p>
-			<input type="submit" class="bouton" value ="Ajoute ton Bar">
+			<p> Ajoutez votre bar pr&#233f&#233r&#233 ? </p>
+			<input type="submit" name="ajout" value ="Ajouter un Bar">
 		</form>
-		<form action ="supprimerbar.php" method="POST">
-			<p> Vous avez vu un bar qui a fermé récemment ? </p>
-			<input type="submit" class="bouton" value ="Supprime un Bar">
+		<form action ="sortiebar.php" method="POST">
+			<p> Vous avez vu un bar qui a ferm&#233 r&#233cemment ? </p>
+			<input type="submit" name="supprimer" value ="Supprime un Bar">
 		</form>
 	</body>
 </html>
