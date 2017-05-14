@@ -17,7 +17,7 @@
 					$mdp=$saisiemdp;
 					$auth = 'SELECT DISTINCT "pseudo","mdp" FROM dataid WHERE "pseudo" = \'' . $pseudo . '\' AND "mdp" = \'' . $mdp . '\' ' ;
 					$resultat=$db ->query($auth);
-						while ($row =$resultat ->fetchArray()){
+						while($row =$resultat ->fetchArray()){
 							if($mdp == $row[1] && $pseudo == $row[0]){
 								echo "vous etes connecté : ";
 								echo $pseudo;

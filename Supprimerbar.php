@@ -27,7 +27,7 @@
 </body>
 	<p id class="retour">
 <a href ="accueil.php">
-retour aux résultats
+retour à l'accueil
 	</a>
 </p>
 </html>
