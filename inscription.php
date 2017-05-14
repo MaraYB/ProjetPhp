@@ -18,9 +18,9 @@
 				$insertion = 'INSERT INTO dataid ("ID", "pseudo" , "mdp")'.'VALUES (\''. $newid .'\',\''. $newpseudo .'\',\''. $newmdp .'\')';
 				$row =$resultat ->fetchArray();
 					if ($newpseudo == $row[0] || $newmdp == $row[1]){
-						echo "Ces Identifiants sont déja pris";
-						echo'<a href ="inscription.html" class="retourinscr">';
+						echo '<p style="text-align:center;">Ces Identifiants sont déja pris </p>';
 						echo'</br>';
+						echo'<a href ="inscription.html" class="retour">';
 						echo'Veuillez reessayer';
 						echo'</a>';
 
@@ -35,8 +35,5 @@
 					}
 				
 			?>
-			<a href ="accueil.php" class="retour">
-			retour à l'accueil
-		</a>
 	</body>
 </html>

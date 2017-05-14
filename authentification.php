@@ -29,7 +29,7 @@
 								echo "Vous etes connecté en tant que: ";
 								echo $pseudo;
 								echo"</h1>";
-								header("Refresh:5;url=sortiebar.php");
+								header("Refresh:5;url=espacemembre.php");
 								echo' <p style="text-align:center;">vous allez etre redirigé dans 5s </p>';
 							}else{
 								echo"Les Identifiants ne sont pas dans notre Base de données";
