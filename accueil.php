@@ -16,11 +16,11 @@
 				<input type="submit", name="connection" value="se connecter" />
 			</form>
 		</div>
-		<p>
+		<p style="margin-top:9cm">
 			<a href="inscription.html" class="inscription"> Rejoins notre communauté ! </a>
 			</p>
 		<div id ="rechercher">
-			<form action="listedesbars.php" method="POST">
+			<form action="listedesbars2.php" method="POST">
 				<select name="villes">
 					<?php
 						$db= new SQLite3('basebar.db');

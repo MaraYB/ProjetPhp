@@ -1,6 +1,4 @@
-<?php
 
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,6 +10,8 @@
 	<body>
 	
 		<?php
+			session_start();
+			$_SESSION['pseudo']=$_POST['pseudo'];
 			$db = new SQLite3('baseid.db');
 			$saisiepseudo=$_POST['pseudo'];
 			$saisiemdp=$_POST['mdp'];
