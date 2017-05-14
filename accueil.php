@@ -17,7 +17,7 @@
 			</form>
 		</div>
 		<p>
-			<a href="inscription.html" id="inscription"> Rejoint notre communauté ! </a>
+			<a href="inscription.html" class="inscription"> Rejoins notre communauté ! </a>
 			</p>
 		<div id ="rechercher">
 			<form action="listedesbars.php" method="POST">

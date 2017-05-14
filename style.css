@@ -44,7 +44,7 @@ input[type=submit]{
 	cursor:pointer;
 }
 
-a.retour, #inscription:link {
+a.retour:link {
 	padding:5px;
 	border:1px solid black;
 	border-radius:5px;
@@ -52,15 +52,43 @@ a.retour, #inscription:link {
 	background-color:#E8EFF7;
 	text-decoration:none;
 }
-a.retour , #inscription:visited {
+
+
+a.inscription:link {
 	padding:5px;
 	border:1px solid black;
 	border-radius:5px;
 	color:black;
 	background-color:#E8EFF7;
-	text-decoration:underline;
+	text-decoration:none;
 }
-a.retour , #inscription:hover {
+a.retour:visited {
+	padding:5px;
+	border:1px solid black;
+	border-radius:5px;
+	color:black;
+	background-color:#E8EFF7;
+	text-decoration:none;
+} 
+
+a.inscription:visited {
+	padding:5px;
+	border:1px solid black;
+	border-radius:5px;
+	color:black;
+	background-color:#E8EFF7;
+	text-decoration:none;
+}
+a.retour:hover {
+	padding:5px;
+	border:1px solid black;
+	border-radius:5px;
+	color:cyan;
+	background-color:#E8EFF7;
+	text-decoration:none;
+}
+
+a.inscription:hover {
 	padding:5px;
 	border:1px solid black;
 	border-radius:5px;
@@ -73,7 +101,7 @@ a.retour, #inscription:active, a.retour, #inscription:focus {
 	border:1px solid black;
  border-radius:5px;
 	 color:black; 
-	 background-color:transparent; 
+	 background-color:#E8EFF7; 
 	 text-decoration:none; }
 
 	
