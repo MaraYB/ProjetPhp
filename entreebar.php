@@ -27,4 +27,9 @@
 			<input type="submit" name="submit" value="Ajouter"/>
 		</form>
 	</body>
+	<p id class="retour">
+		<a href ="accueil.php">
+		retour à l'accueil
+		</a>
+	</p>
 </html>
