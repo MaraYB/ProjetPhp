@@ -4,6 +4,7 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		<h1>Espace Membre</h1>
 		<form action="supprimeravis.php" method="POST">
 			<table>
 				<thead>
@@ -11,8 +12,9 @@
 				</thead>
 				<tbody>
 					<?php
+						session_start();
+						$pseudo = $_SESSION['pseudo'];
 						$db = new SQLite3('baseavis.db');
-						$pseudo = #commande pour récupérer le pseudo du membre;
 						$historique = $db->query('SELECT "avis" FROM donnees WHERE "pseudo" = \'' . $pseudo . '\'');
 		
 							while ($row = $historique -> fetchArray()){
