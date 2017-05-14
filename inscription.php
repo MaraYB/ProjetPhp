@@ -19,10 +19,14 @@
 				$row =$resultat ->fetchArray();
 					if ($newpseudo == $row[0] || $newmdp == $row[1]){
 						echo "Ces Identifiants sont déja pris";
+						echo'<a href ="inscription.html" class="retour">';
+						echo'</br>';
+						echo'Veuillez reessayer';
+						echo'</a>';
 
 				}else{
 						$db->exec($insertion);
-						echo "succes";
+						echo "Vous avez été Inscrit avec Succes";
 						echo $row[1];
 						echo "</br>";
 						echo $newpseudo;

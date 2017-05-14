@@ -15,9 +15,8 @@
 				echo "<p>bar del.</p>";
 				
 			} else {
-			echo "Erreur quelque Part";
+			echo "Selectionnez un bar";
 			}
-			echo $nom;
 
 		?>
 		<h1>Vous avez bien supprimé <?php
