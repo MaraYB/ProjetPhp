@@ -23,10 +23,9 @@
 							echo $nom
 						?> 
 		</h1>
+		<a href ="accueil.php" class="retour">
+			Retour à l'accueil
+		</a>
 </body>
-	<p id class="retour">
-<a href ="accueil.php">
-retour à l'accueil
-	</a>
-</p>
+
 </html>

@@ -1,5 +1,5 @@
 <?php
-$redirection=header("Refresh:5;url=sortiebar.php");
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,7 +29,7 @@ $redirection=header("Refresh:5;url=sortiebar.php");
 								echo "Vous etes connecté en tant que: ";
 								echo $pseudo;
 								echo"</h1>";
-								$redirection;
+								header("Refresh:5;url=sortiebar.php");
 								echo' <p style="text-align:center;">vous allez etre redirigé dans 5s </p>';
 							}else{
 								echo"Les Identifiants ne sont pas dans notre Base de données";
@@ -38,17 +38,16 @@ $redirection=header("Refresh:5;url=sortiebar.php");
 						}
 					}else{
 						$saisiemdp=NULL;
-						echo " entrez un mdp valide ";
+						echo " <h1> Entrez un mdp valide </h1> ";
+
 					}
 			}else{
 					$saisiepseudo=NULL;
-					echo " entrez un pseudo valide  ";
+					echo "<h1> Entrez un pseudo valide </h1> ";
 				};
-	
-
-			
-			
-			
 		?> 
+		<a href ="accueil.php" class="retour">
+			Retour à l'accueil
+		</a>
 	</body>
 </html>

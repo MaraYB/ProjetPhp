@@ -8,16 +8,18 @@
 		<h1>
 			Trouvons un Bar !!
 		</h1>
-		<p> Déja membre ?
+		<div id="membre" > Déja membre ?
 			<form action ="authentification.php" method ="POST">
 				Pseudo:<input type="text" , name="pseudo"> </br>
 				Mot de passe:<input type="password" , name="mdp">
+				</br>
 				<input type="submit", name="connection" value="se connecter" />
 			</form>
-			<a href="inscription.html"> Sinon inscrit toi ! </a>
-		</p>
-		</br>	
-		<div name ="debut">
+		</div>
+		<p>
+			<a href="inscription.html" id="inscription"> Rejoint notre communauté ! </a>
+			</p>
+		<div id ="rechercher">
 			<form action="listedesbars.php" method="POST">
 				<select name="villes">
 					<?php
