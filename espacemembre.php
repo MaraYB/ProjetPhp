@@ -38,6 +38,25 @@
 			<textarea name="avis" id="avis"></textarea></p>
 			<input type="submit" name="submit" value="Ajouter"/>
 		</form>
+		
+		<h1>Recherche de bar</h1>
+		
+		<div name ="debut">
+			<form action="listedesbars.php" method="POST">
+				<select name="villes">
+					<?php
+						$db= new SQLite3('basebar.db');
+						$resultats=$db ->query('SELECT DISTINCT "ville" FROM databar ORDER BY "ville"');
+						while ($row = $resultats -> fetchArray()){
+							if ($row[0]){
+								echo"<option value='",$row[0],"'>",$row[0], "</option> \n ";
+							}
+						}
+					?>
+				</select>
+				<input type="submit", name="cherche" value="Cherche moi un bar" />
+			</form>
+		</div>		
 	</body>
 	<p id class="retour">
 		<a href ="accueil.php">
