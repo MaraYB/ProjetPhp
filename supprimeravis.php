@@ -15,8 +15,8 @@
 			}
 		?>
 	</body>
-	<p class="retour">
-		<a href ="accueil.php">
+	<p>
+		<a class="retour" href ="accueil.php">
 		retour à l'accueil
 		</a>
 	</p>
