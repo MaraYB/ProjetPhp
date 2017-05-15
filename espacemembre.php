@@ -58,9 +58,4 @@
 			</form>
 		</div>		
 	</body>
-	<p id class="retour">
-		<a href ="accueil.php">
-		retour à l'accueil
-		</a>
-	</p>
 </html>
