@@ -13,7 +13,6 @@
 				$effacer = 'DELETE from databar WHERE "nom_bar" = \'' . $nom . '\'';
 				$db = new SQLite3('basebar.db');
 				$results = $db -> exec($effacer);
-				echo "<p>bar del.</p>";
 				
 			} else {
 			echo "Selectionnez un bar";

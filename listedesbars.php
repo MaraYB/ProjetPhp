@@ -55,8 +55,8 @@
 			<input type="submit" name="supprimer" value ="Supprimer un Bar">
 		</form>
 	</body>
-	<p class="retour">
-		<a href ="accueil.php">
+	<p>
+		<a href ="accueil.php" class="retour">
 		retour à l'accueil
 		</a>
 	</p>
