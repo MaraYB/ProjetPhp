@@ -8,7 +8,7 @@
 		<form action="supprimeravis.php" method="POST">
 			<table>
 				<thead>
-					<th>Historique des avis</th><th>Supprimer cet avis</th>
+					<th>Historique des avis</th><th><input type="submit" value="Supprimer cet avis"/></th>
 				</thead>
 				<tbody>
 					<?php
